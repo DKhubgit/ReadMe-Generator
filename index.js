@@ -69,13 +69,11 @@ function init() {
         {
             type: 'list',
             message: questions[8],
-            choices: ['Number 1', 'Number 2', 'Number 3', 'Number 4'],
+            choices: ['GNU GPLv3', 'Apache License 2.0', 'MIT license'],
             name: 'license'
         },
     ])
     .then (response => {
-        console.log(response);
-        console.log(response.tableItems);
         writeToFile('README2.md', response);
     })
     .catch(err => {
