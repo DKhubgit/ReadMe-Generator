@@ -74,7 +74,7 @@ function init() {
         },
     ])
     .then (response => {
-        writeToFile('README2.md', response);
+        writeToFile('README.md', response);
     })
     .catch(err => {
         console.log(err);
