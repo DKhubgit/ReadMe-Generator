@@ -75,7 +75,7 @@ function generateMarkdown(data) {
 
   ## Tests 
 
-  ${data.test}
+  ${data.tests}
 
   ## Questions
 
