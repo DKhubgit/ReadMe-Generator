@@ -48,6 +48,8 @@
   ## Tests 
 
   There is a text file called 'sample.txt' to use as testing. 
+  
+  [readme-generator-demo (2).webm](https://user-images.githubusercontent.com/103972201/180123451-a860bffe-03d9-4752-a073-e964f81d892f.webm)
 
   ## Questions
 
